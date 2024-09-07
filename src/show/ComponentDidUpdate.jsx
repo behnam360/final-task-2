@@ -15,7 +15,7 @@ import "./show-post.css";
 
 const { Header, Sider, Content } = Layout;
 
-const App = () => {
+const ComponentDidUpdate = () => {
   const [collapsed, setCollapsed] = useState(window.innerWidth <= 768);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const [drawerVisible, setDrawerVisible] = useState(false);
@@ -221,4 +221,4 @@ const PostMoreInfo = () => {
   );
 };
 
-export default App;
+export default ComponentDidUpdate;
